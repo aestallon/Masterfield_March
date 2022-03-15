@@ -26,7 +26,7 @@ public class Problem02Test {
         System.out.println(WELCOME_MSG);
         System.out.print(QUERY);
 
-        while (!((input = sc.next()).equals("0"))) {
+        while (!((input = sc.nextLine()).equals("0"))) {
 
             boolean aFound = hasA(input);
             System.out.println("It has `a` in it: " + aFound);

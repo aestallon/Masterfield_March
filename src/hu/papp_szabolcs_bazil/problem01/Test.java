@@ -18,6 +18,13 @@ import java.util.concurrent.ThreadLocalRandom;
  * @since 17.0.2
  */
 public class Test {
+
+
+    /*
+    An example driver method for testing.
+    It generates 200 random passengers and prints their properties and their
+    evaluation results into standard output.
+     */
     public static void main(String[] args) {
         for (int i = 0; i < 200; i++) {
             Passenger passenger = generateRandomPassenger();

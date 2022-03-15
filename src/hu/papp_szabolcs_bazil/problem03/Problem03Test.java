@@ -25,7 +25,7 @@ public class Problem03Test {
         System.out.println(WELCOME_MSG);
         System.out.print(QUERY);
 
-        while (!((input = sc.next()).equals("0"))) {
+        while (!((input = sc.nextLine()).equals("0"))) {
             int numberOfB = countB(input);
             System.out.println("It has " + numberOfB + " letter `b`(s)!");
             // Only list the positions of `b`, if there is any of it in the String.
