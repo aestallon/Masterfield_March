@@ -6,7 +6,7 @@ import java.util.Scanner;
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.countB;
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.listBPositions;
 
-public class problem03Test {
+public class Problem03Test {
     /**
      * A welcome message to be printed when the program starts.
      */

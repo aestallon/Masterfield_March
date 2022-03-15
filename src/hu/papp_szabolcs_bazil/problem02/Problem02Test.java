@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.firstAPos;
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.hasA;
 
-public class CharFinderTest {
+public class Problem02Test {
 
     /**
      * A welcome message to be printed when the program starts.
