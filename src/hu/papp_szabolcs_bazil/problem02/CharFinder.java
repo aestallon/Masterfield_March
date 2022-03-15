@@ -47,16 +47,16 @@ public class CharFinder {
      */
     public static int firstMatchingCharPos(char ch, String str) {
         char[] array = str.toCharArray();
-        boolean hasChar = false;
+        boolean charFound = false;
         int result = 0;
         for (char character : array) {
             if (character == ch) {
-                hasChar = true;
+                charFound = true;
                 break;
             }
             result++;
         }
-        if (hasChar) {
+        if (charFound) {
             return result;
         } else {
             return -1;
