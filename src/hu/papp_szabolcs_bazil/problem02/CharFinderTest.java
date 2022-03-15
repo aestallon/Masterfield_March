@@ -22,7 +22,7 @@ public class CharFinderTest {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String input = "";
+        String input;
         System.out.println(WELCOME_MSG);
         System.out.print(QUERY);
 
