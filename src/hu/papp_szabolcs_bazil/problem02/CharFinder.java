@@ -11,6 +11,8 @@ package hu.papp_szabolcs_bazil.problem02;
  * </p><p>
  * The methods {@link #countB(String)} and {@link #listBPositions(String)} are specifically used
  * to provide solutions to <i>problem No.3</i>.
+ * </p><p>
+ * The method {@link #getRepeatedWsp(String)} is used to provide solutions to <i>problem No.4</i>.
  * </p>
  *
  * @author Szabolcs Bazil Papp
@@ -81,8 +83,8 @@ public class CharFinder {
      *
      * @param str a {@code String}
      * @return the {@code int} <strong>first position</strong> in the {@code String} where
-     *         the letter <b>a</b> can be found. If the {@code String} doesn't contain the letter <b>a</b>, {@code -1} is
-     *         returned.
+     *         the letter <b>a</b> can be found. If the {@code String} doesn't contain the
+     *         letter <b>a</b>, {@code -1} is returned.
      */
     public static int firstAPos(String str) {
         return firstMatchingCharPos('a', str);
@@ -179,8 +181,8 @@ public class CharFinder {
      *
      * @param str a {@code String}
      * @return a {@code char[]} array, every element of which is a whitespace.
-     *         The length of this array is the number of whitespaces the {@code String}
-     *         parameter contained.
+     *         The length of this array is the number of repeated whitespaces
+     *         the {@code String} parameter contained.
      */
     public static char[] getRepeatedWsp(String str) {
         final char WSP = ' ';
