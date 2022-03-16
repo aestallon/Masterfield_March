@@ -5,13 +5,15 @@ package hu.papp_szabolcs_bazil.problem01;
  * <p>
  * The {@code InsuranceRequirements} class consists exclusively of static methods used for
  * evaluating travel insurance related criteria for {@link Passenger}s.
+ * </p><p>
+ * <i>The source code is available at:</i>
  * </p>
  *
- * @author  Szabolcs Bazil Papp
+ * @author Szabolcs Bazil Papp <papp.szabolcs.bazil@gmail.com>
  * @version 1.0
- * @see     Passenger
- * @see     TravelFor
- * @since   17.0.2
+ * @see Passenger
+ * @see TravelFor
+ * @since 17.0.2
  */
 public class InsuranceRequirements {
 
