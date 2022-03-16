@@ -6,7 +6,8 @@ package hu.papp_szabolcs_bazil.problem01;
  * The {@code InsuranceRequirements} class consists exclusively of static methods used for
  * evaluating travel insurance related criteria for {@link Passenger}s.
  * </p><p>
- * <i>The source code is available at:</i>
+ * <i>The source code is available at
+ * <a href="https://github.com/aestallon/Masterfield_March">this GitHub address.</a></i>
  * </p>
  *
  * @author Szabolcs Bazil Papp <papp.szabolcs.bazil@gmail.com>
