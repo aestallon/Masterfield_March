@@ -5,6 +5,22 @@ import java.util.Scanner;
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.firstAPos;
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.hasA;
 
+/**
+ * An executable program for <b>Problem No.2</b>.
+ * <p>
+ * Running this class will execute a console program. The user will
+ * be prompted to provide a line of input. The input will be
+ * evaluated if it contains the letter <b><i>a</i></b>. If it does,
+ * the position of its first occurrence in the input will be
+ * printed into the standard output.
+ * </p>
+ *
+ * @author Szabolcs Bazil Papp
+ * @version 1.0
+ * @see CharFinder#hasA(String)
+ * @see CharFinder#firstAPos(String)
+ * @since 17.0.2
+ */
 public class Problem02Test {
 
     /**
@@ -20,9 +36,9 @@ public class Problem02Test {
     private static final String QUERY = "Please type in something: ";
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         String input;
+
         System.out.println(WELCOME_MSG);
         System.out.print(QUERY);
 

@@ -5,6 +5,21 @@ import java.util.Scanner;
 
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.getRepeatedWsp;
 
+/**
+ * An executable program for <b>Problem No.4</b>.
+ * <p>
+ * Running this class will execute a console program. The user will
+ * be prompted to provide a line of input. The input will be
+ * evaluated if it contains repeating whitespaces. A representation
+ * of the array containing such whitespaces will be printed to
+ * standard output.
+ * </p>
+ *
+ * @author Szabolcs Bazil Papp
+ * @version 1.0
+ * @see hu.papp_szabolcs_bazil.problem02.CharFinder#getRepeatedWsp(String)
+ * @since 17.0.2
+ */
 public class Problem04Test {
     /**
      * A welcome message to be printed when the program starts.
