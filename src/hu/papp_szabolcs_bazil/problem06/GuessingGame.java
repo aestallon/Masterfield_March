@@ -59,8 +59,9 @@ public class GuessingGame {
         System.out.println(WELCOME_MSG);
         getGuess();
         while (!isRollMatchingGuess()) {
-            rollCounter++;
+            rollCounter++; // count the non-matching rolls
         }
+        rollCounter++; // count the final, matching roll
         System.out.println("It took me " + rollCounter + " rolls to match your guess!");
     }
 
