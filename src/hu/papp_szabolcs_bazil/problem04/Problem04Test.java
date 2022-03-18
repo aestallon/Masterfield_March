@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import static hu.papp_szabolcs_bazil.problem02.CharFinder.getRepeatedWsp;
+import static hu.papp_szabolcs_bazil.problem02.CharFinder.removeRepeatedWsp;
 
 /**
  * An executable program for <b>Problem No.4</b>.
@@ -42,6 +43,7 @@ public class Problem04Test {
         while (!((input = sc.nextLine()).equals("0"))) {
             char[] whitespaces = getRepeatedWsp(input);
             System.out.println("The repeated whitespaces are: " + Arrays.toString(whitespaces));
+            System.out.println("The cleaned up string is: " + removeRepeatedWsp(input));
             System.out.println(QUERY);
         }
     }

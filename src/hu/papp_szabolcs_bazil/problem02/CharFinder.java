@@ -175,6 +175,29 @@ public class CharFinder {
     // Methods belonging to problem No.4 can be found below. //
     // ***************************************************** //
 
+    public static String removeRepeatedWsp(String string) {
+        final char WSP = ' ';
+        char[] chArray = string.toCharArray();
+        char[] result = new char[chArray.length];
+
+        int count = 0;
+        result[0] = chArray[0];
+        for (int i = 1; i < chArray.length; i++) {
+            if (!((chArray[i] == WSP) && (chArray[i] == chArray[i - 1]))) {
+                count++;
+                result[count] = chArray[i];
+            }
+        }
+        char[] prettyResult = new char[count + 1];
+        System.arraycopy(result, 0, prettyResult, 0, prettyResult.length);
+        StringBuffer sb = new StringBuffer();
+        for (char ch : prettyResult) {
+            sb.append(ch);
+        }
+        return sb.toString();
+    }
+
+
     /**
      * Searches a {@code String} for repeating whitespaces and returns them in
      * an array. All elements of this array are the whitespaces themselves.
