@@ -175,6 +175,13 @@ public class CharFinder {
     // Methods belonging to problem No.4 can be found below. //
     // ***************************************************** //
 
+    /**
+     * Removes repeated whitespaces from a given {@code String}. If there are
+     * trailing whitespaces, the first of them is not removed.
+     *
+     * @param string a {@code String}
+     * @return the same {@code String} with single whitespaces between words.
+     */
     public static String removeRepeatedWsp(String string) {
         final char WSP = ' ';
         char[] chArray = string.toCharArray();
