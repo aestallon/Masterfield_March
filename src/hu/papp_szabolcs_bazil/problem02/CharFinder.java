@@ -12,7 +12,8 @@ package hu.papp_szabolcs_bazil.problem02;
  * The methods {@link #countB(String)} and {@link #listBPositions(String)} are specifically used
  * to provide solutions to <i>problem No.3</i>.
  * </p><p>
- * The method {@link #getRepeatedWsp(String)} is used to provide solutions to <i>problem No.4</i>.
+ * The methods {@link #removeRepeatedWsp(String)} and {@link #getRepeatedWsp(String)} is used
+ * to provide solutions to <i>problem No.4</i>.
  * </p>
  *
  * @author Szabolcs Bazil Papp
